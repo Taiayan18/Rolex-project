@@ -8,6 +8,7 @@
       .container {
         border: 3px solid black;
         height: auto;
+         background-color: rgb(231, 224, 218);
       }
 
       .box1 {
@@ -90,8 +91,8 @@
 
     h3{
       font-size: 45px;
-      margin-left: 50px;
-      margin-top: 80px;
+      
+      
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
@@ -102,17 +103,25 @@
       margin: 10px;
     }
 
+    .s2{
+        padding: 60px;
+    }
     .new{
       max-height: 700px;
-    
+     border-radius: 20px;
       width: 100%;
+    }
+    .new:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+       
     }
 
     button{
       border: none;
       width: 180px;
       height: 40px;
-      margin: 10px;
+      
       font-size: 20px;
       color: #255e0e;
       background-color: white;
@@ -124,6 +133,59 @@
       background-color: rgba(23, 241, 23, 0.37);
       border-radius: 20px;
       color: #000;
+    }
+
+    .watchimg{
+        display: flex;
+        
+        flex-wrap: wrap;
+        
+        justify-content: space-around;
+    }
+
+    .watching{
+        display: flex;
+        
+        flex-wrap: wrap;
+        min-width: 360px;
+        justify-content: start;
+    }
+
+    .watches{
+        border: 1px solid black;
+        height: 430px;
+        border: none;
+       cursor: pointer;
+        width: 360px;
+        padding-block: 30px;
+        
+        
+    }
+
+    
+
+    .w1{
+        height: 330px;
+    }
+
+    .w1:hover{
+        transform: scale(0.94);
+        transition: 0.5s;
+    }
+
+    .rolex{
+        color: rgb(71, 57, 38);
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+     .rolex2{
+        color: rgb(71, 57, 38);
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 10px;
     }
 
 
@@ -145,9 +207,7 @@
         font-size: 40px;
         margin-right: 30px;
       }
-      select{
-        font-size: ;
-      }
+     
 
       .list{
         display: none;
@@ -223,8 +283,69 @@
       </section>
 
 
-      <section>
+      <section class="s2">
+        <h3>Classic watches</h3>
 
+
+        <div class="watchimg">
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/rolex-watches-land-dweller_landing.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Land-Dweller</div></div>
+            <div class="watches"><img class="w1" height="100%" width="100%" src="./images/classicWatch1.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Day-Date</div></div>
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/classicWatch4.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Sky-Dweller</div></div>
+         </div>
+
+
+         <div class="watchimg">
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/classicWatch3.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Lady-Datejust</div></div>
+        <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/classicWatch2.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Datejust</div></div>
+        <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/rolex-watches-oyster-perpetual-desk.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Oyester prepetual</div></div>
+         </div>
+      </section>
+
+      <section class="s2">
+        <h3>Professional watches</h3>
+
+         <div class="watchimg">
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/rolex-watches-cosmograph-daytona-desk.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Cosmograph Daytona</div></div>
+            <div class="watches"><img class="w1" height="100%" width="100%" src="./images/professionalWatch4.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Submarinel</div></div>
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/professionalWatch3.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">See Dweller</div></div>
+         </div>
+
+
+         <div class="watchimg">
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/professionalWatch8.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Deepsea</div></div>
+            <div class="watches"><img class="w1" height="100%" width="100%" src="./images/professionalWatch2.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">GMT-Master ||</div></div>
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/professionalWatch6.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Yach-Master</div></div>
+         </div>
+
+           <div class="watchimg">
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/rolex-watches-explorer-desk.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Explorer</div></div>
+            <div class="watches"><img class="w1" height="100%" width="100%" src="./images/professionalWatch1.jpg" alt=""><div class="rolex">Rolex</div>
+        <div class="rolex2">Air king</div></div>
+            
+         </div>
+      </section>
+
+
+      <section class="s2">
+        <h3>Perpetual watches</h3>
+        <div class="watching">
+            <div class="watches"><img class="w1"  height="100%" width="100%" src="./images/rolex-watches-1908-desk.jpg" alt=""><div class="rolex">1908</div>
+       
+            
+         </div>
       </section>
     </div>
   </body>
